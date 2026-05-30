@@ -81,7 +81,7 @@ foreman start -f Procfile.dev
 
 # Módulo de reportes
 ## Cómo acceder
-- Ingresar al backstore y abrir la sección `Reportes` del sidebar.
+- Ingresar al backstore como admin o manager y abrir la sección `Reportes` del sidebar.
 - También se puede entrar directamente en `http://localhost:3000/admin/reports`.
 
 ## Métricas y análisis que se muestran
