@@ -53,6 +53,7 @@ es:
       status: "Estado"
       total: "Total"
       type: "Tipo"
+      condition: "Condición"
     options:
       all: "Todos"
       select: "Seleccionar"
