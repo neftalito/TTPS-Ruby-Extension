@@ -18,6 +18,7 @@ class Ability
     when :manager
       can :manage, Product
       can :manage, Sale
+      can :read, :reports
 
       # Puede ver todos los usuarios
       can :read, User
@@ -41,6 +42,9 @@ class Ability
 
       # No puede gestionar usuarios
       cannot :manage, User
+
+      # No puede ver reportes de ventas
+      cannot :read, :reports
     end
 
     # Todos pueden ver/editar su propia cuenta (menos el rol)

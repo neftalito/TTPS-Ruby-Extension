@@ -1,5 +1,5 @@
 # Integrantes
-- Lautaro Tomas Budini
+- Lautaro Tomás Budini
 - Neftalí Taiel Toledo Dicroce
 - Nicolás Tenaglia
 
@@ -9,7 +9,8 @@
 - Los productos sin stock se muestran en escala de grises en el frontstore.
 - El stock es visible desde el frontstore para facilitar la demostración del trabajo.
 - El dashboard del backstore muestra ventas y ganancias del usuario actual, accesos rapidos, gráficos de ventas, stock crítico y últimas ventas confirmadas.
-- El modulo de reportes vive en una sección separada de la gestión de ventas y sólo considera ventas confirmadas.
+- El módulo de reportes vive en una sección separada de la gestión de ventas y solo considera ventas confirmadas.
+- El módulo de reportes no es accesible para empleados, sólo administradores y  gerentes
 - Los reportes se pueden filtrar por fecha, tipo de producto, género musical y empleado.
 - Los reportes muestran métricas numéricas y gráficas, junto con exportación en CSV y PDF.
 - Los productos admiten hasta 10 imágenes en formatos JPG, PNG, GIF y WEBP, con un máximo de 10 MB por imagen.

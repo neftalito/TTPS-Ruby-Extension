@@ -45,7 +45,7 @@ module Backstore
     private
 
     def authorize_sales_access!
-      authorize! :read, Sale
+      authorize! :read, :reports
     end
 
     def build_report
