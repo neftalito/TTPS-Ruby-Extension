@@ -2,7 +2,7 @@ require "test_helper"
 
 class Backstore::ReportsControllerTest < ActionDispatch::IntegrationTest
   setup do
-    sign_in users(:employee)
+    sign_in users(:manager)
   end
 
   test "shows the report dashboard" do
