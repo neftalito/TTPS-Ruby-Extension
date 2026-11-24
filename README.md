@@ -1,3 +1,25 @@
+> [!CAUTION]
+> **Vulnerabilidad crítica de seguridad — Ruby2Shell (CVE-2026-132825)**
+>
+> Este proyecto utiliza Ruby 3.4.7, una versión afectada por Ruby2Shell,
+> una vulnerabilidad de corrupción de memoria que puede permitir la
+> ejecución remota de código (RCE) sin autenticación.
+>
+> Se recomienda actualizar Ruby a la versión **3.4.13 o superior**
+> que incluya el parche de seguridad antes de ejecutar o desplegar
+> esta aplicación.
+>
+> Hasta realizar la actualización, se desaconseja exponer la aplicación
+> a Internet o a redes no confiables.
+>
+> La actualización de Rails o de sus gemas no corrige esta vulnerabilidad,
+> ya que el problema reside en el propio intérprete de Ruby.
+>
+> **Nota:** Se ha confirmado el uso de una versión vulnerable, pero no
+> se ha verificado experimentalmente su explotación en esta aplicación.
+>
+> [Comunicado oficial de seguridad de Ruby](https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/)
+
 # Integrantes
 - Lautaro Tomás Budini
 - Neftalí Taiel Toledo Dicroce
